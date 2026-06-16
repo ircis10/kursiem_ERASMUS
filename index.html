@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hello from Latvia and Aizpute Secondary School</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <header class="hero" id="top">
+    <div class="hero-card">
+
+      <h1>Hello from Latvia and Aizpute Secondary School</h1>
+      <p>
+        A short visual story about Latvia, the town of Aizpute and our school community.
+      </p>
+      <a class="btn" href="#latvia">Start the story</a>
+    </div>
+  </header>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="#latvia">Latvia</a>
+      <a href="#aizpute">Aizpute</a>
+      <a href="#school">School</a>
+      <a href="#life">School life</a>
+      <a href="#traditions">Traditions</a>
+      <a href="#ending">Closing</a>
+    </div>
+  </nav>
+
+  <section id="latvia">
+    <div class="wrap">
+      <div class="grid-2">
+        <div>
+          <span class="tag">Latvia</span>
+          <h2>A small country by the Baltic Sea</h2>
+          <p class="intro">
+            Latvia is a country in the Baltic region of Northern Europe. 
+            It is known for its nature, culture, cities and traditions.
+          </p>
+
+          <div class="grid">
+            <div class="card fact-card" onclick="toggleCard(this)">
+              <h3>Capital city</h3>
+              <p>Riga is the capital of Latvia.</p>
+              <div class="hidden-text">Riga is also one of the best-known cultural and historical destinations in
+                Latvia. <img
+                  src="https://www.latvia.travel/sites/default/files/styles/desktop_16_9/public/media_image/37315458162_8e53834697_k.webp?itok=svBkLBIz"
+                  alt="Latvia landscape" width="300"></div>
+
+            </div>
+
+            <div class="card fact-card" onclick="toggleCard(this)">
+              <h3>Language</h3>
+              <p>The official language is Latvian.</p>
+              <div class="hidden-text">
+                <br> "Sveiki!" = Hello.
+                <br> "Paldies!" = Thank you!
+              </div>
+            </div>
+
+            <div class="card fact-card" onclick="toggleCard(this)">
+              <h3>Nature</h3>
+              <p>Latvia is often introduced through its forests, rivers, lakes and coastline.</p>
+              <div class="hidden-text"> Over half of Latvia is covered with forests.
+                There are 12000+ rivers, 3000 lakes!
+              </div>
+            </div>
+            <div class="card fact-card" onclick="toggleCard(this)">
+              <h3>Culture</h3>
+              <p>There are recorded over 1.2 million Latvian folk songs (dainas). <br>The Latvian Song and Dance
+                Festival is one of the world's largest amateur music and dance celebrations. It is recognized by UNESCO
+                as an important part of humanity’s cultural heritage.</p>
+              <div class="hidden-text">
+                40,000+ singers & dancers! <img
+                  src="https://www.latvia.eu/uploads/2023/01/46028085041_aa3c486e5a_o-min-1920x1278.jpg"
+                  alt="The Latvian Song and Dance Festival" width="300">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="image-placeholder">
+          
+            <iframe class="youtube-video" width="100%" height="315" src="https://www.youtube.com/embed/8LDmUwFhttg"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          
+        </div>
+      </div>
+
+      <div class="sources">
+        Sources:
+        <a href="https://www.latvia.travel/en" target="_blank">Latvia Travel</a>,
+        <a href="https://www.latvia.eu/" target="_blank">Mission Latvia</a>,
+        <a href="https://www.latvia.travel/en/interesting-facts-about-latvia" target="_blank">Interesting facts about
+          Latvia</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="aizpute" style="background:white;">
+    <div class="wrap">
+      <span class="tag">Aizpute</span>
+      <h2>Our town: Aizpute</h2>
+      <p class="intro">
+        Aizpute is one of the oldest towns in Western Latvia. It's a place where history meets silence, inspiring nature
+        and active community life.
+      </p>
+
+      <div class="grid-2">
+        <div class="image-placeholder">
+          <iframe class="youtube-video" width="100%" height="315" src="https://www.youtube.com/embed/e-YnG16tV2E"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <h3>Historic identity</h3>
+            <p>Aizpute has a long history, because the town is about 777 years old. It has ancient wooden architecture
+              and narrow streets.</p>
+          </div>
+
+          <div class="timeline-item">
+            <h3>Landscape</h3>
+            <p>The town is located by the Tebra River, which is an important part of the local landscape.</p>
+          </div>
+
+          <div class="timeline-item">
+            <h3>Strong Community</h3>
+            <p>Aizpute glorify heritage through local events, festivals and cultural activities that connect
+              generations and strengthen community bonds.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="sources">
+        Sources:
+        <a href="https://aizpute.lv/" target="_blank">Aizpute.lv</a>,
+        <a href="https://www.visitaizpute.lv/" target="_blank">Visit Aizpute</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="school">
+    <div class="wrap">
+      <span class="tag">Aizpute's Secondary School</span>
+      <h2>Our school community</h2>
+      <div class="hero__logo">
+        <img src="https://aizpute.edu.lv/wp-content/uploads/2025/11/skolas_logo_uzr.jpg" alt="Aizputes vidusskolas logo" width="126px" height="126px">
+       
+      </div>
+      <p class="intro">
+        Aizpute's Secondary School was founded on 15 September 1921. Today it provides education
+        from preschool level to secondary classes.
+      </p>
+
+      <div class="stats">
+        <div class="stat">
+          <strong>1921</strong>
+          Founded
+        </div>
+        <div class="stat">
+          <strong>433</strong>
+          Learners in 2025
+        </div>
+        <div class="stat">
+          <strong>60</strong>
+          Teachers
+        </div>
+
+      </div>
+
+      <div class="grid-2" style="margin-top:34px;">
+        
+
+        <div class="image-placeholder">
+          <img src="AVS_p.jpg" alt="Aizputes vidusskola no priekšas">
+        </div>
+        <div class="image-placeholder">
+          
+            <img src="AVS_aiz.jpg" alt="Aizputes vidusskola no priekšas">
+          
+        </div>
+      </div>
+
+      <div class="sources">
+        Source:
+        <a href="https://aizpute.edu.lv/" target="_blank">Aizputes vidusskola</a>,
+        <a href="https://aizpute.edu.lv/par-skolu/" target="_blank">Par skolu</a>,
+        <a href="https://www.facebook.com/Aizputesvsk/" target="_blank">Par skolu Facebook</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="life" style="background:white;">
+    <div class="wrap">
+      <span class="tag">School life</span>
+      <h2>Learning, people and everyday life</h2>
+      
+
+      <div class="tabs">
+        <button class="tab-btn active" onclick="openTab(event, 'teachers')">Teachers</button>
+        <button class="tab-btn" onclick="openTab(event, 'students')">Students</button>
+        <button class="tab-btn" onclick="openTab(event, 'learning')">Learning environment</button>
+      </div>
+
+      <div id="teachers" class="tab-panel active">
+        <div class="grid-2">
+          
+          <div class="image-placeholder">
+            
+              <strong>Teacher's day "80s style"</strong>
+             <img src="80_stils.jpg" alt="">
+            
+          </div>
+          <div class="image-placeholder">
+            
+              <strong>Teacher's day "In the country"</strong>
+              <img src="laukos.jpg" alt="">
+            
+          </div>
+           <div class="image-placeholder">
+            <div>
+              <strong>Teātris</strong>
+              <img src="" alt="">
+            </div>
+          </div>
+          <div class="image-placeholder">
+            <div>
+              <strong>Atpūta, skolu noslēdzot</strong>
+              <img src="" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="students" class="tab-panel">
+        <div class="grid-2">
+          
+          <div class="image-placeholder">
+            <div>
+              <strong>IMAGE PLACEHOLDER</strong>
+              Add a real student-life photo here.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="learning" class="tab-panel">
+        <div class="grid-2">
+          <div class="card">
+            <h3>Learning environment</h3>
+            <p>
+              The school provides comprehensive education from the first years of schooling to secondary level.
+            </p>
+            <p>
+              Suggested photo: classroom, laboratory, computer room, library or student work.
+            </p>
+          </div>
+          <div class="image-placeholder">
+            <div>
+              <strong>IMAGE PLACEHOLDER</strong>
+              Add a real learning environment photo here.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="sources">
+        Source:
+        <a href="https://aizpute.edu.lv/par-skolu/" target="_blank">Aizputes vidusskola — par skolu</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="traditions">
+    <div class="wrap">
+      <span class="tag">Traditions</span>
+      <h2>Moments that create belonging</h2>
+      <p class="intro">
+        Use this part to show real school traditions and events. The text below is intentionally general,
+        so you can adjust it to the exact photos you choose.
+      </p>
+
+      <div class="grid">
+        <div class="card">
+          <h3>Beginning of the school year</h3>
+          <p>A moment when students, teachers and families gather to begin a new learning year.</p>
+          <div class="image-placeholder" style="min-height:190px;margin-top:16px;">
+            <div><strong>PHOTO</strong> 1 September / school opening</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Latvian national celebrations</h3>
+          <p>School events often connect students with Latvian culture, language and national identity.</p>
+          <div class="image-placeholder" style="min-height:190px;margin-top:16px;">
+            <div><strong>PHOTO</strong> 18 November / patriotic event</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Concerts and school events</h3>
+          <p>Creative activities help students show talents and build a sense of community.</p>
+          <div class="image-placeholder" style="min-height:190px;margin-top:16px;">
+            <div><strong>PHOTO</strong> concert / performance / celebration</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="sources">
+        Source for school identity and official information:
+        <a href="https://aizpute.edu.lv/" target="_blank">Aizputes vidusskola</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="ending" style="background:white;">
+    <div class="wrap">
+      <div class="quote">
+        From a small Latvian town to an international learning community — thank you for meeting us.
+      </div>
+
+      <div class="grid-2" style="margin-top:34px;">
+        <div>
+          <h2>Nice to meet you!</h2>
+          <p class="intro">
+            This interactive story can be used as a 3–5 minute introduction.
+            Replace the placeholders with your own real photographs and keep all source links visible.
+          </p>
+        </div>
+
+        <div class="image-placeholder">
+          <div>
+            <strong>FINAL IMAGE PLACEHOLDER</strong>
+            Add a warm closing photo here.<br>
+            Suggested: school group, Latvia landscape, Aizpute view or personal greeting.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <h2>Paldies!</h2>
+    <p>Thank you from Latvia and Aizpute Secondary School.</p>
+    <p style="font-size:0.85rem;opacity:0.8;">
+      Sources used in this material: Latvia Travel, Visit Aizpute, Aizpute.lv, Aizputes vidusskola.
+    </p>
+  </footer>
+
+  <script>
+    function toggleCard(card) {
+      card.classList.toggle("open");
+    }
+
+    function openTab(event, tabName) {
+      const panels = document.querySelectorAll(".tab-panel");
+      const buttons = document.querySelectorAll(".tab-btn");
+
+      panels.forEach(panel => panel.classList.remove("active"));
+      buttons.forEach(button => button.classList.remove("active"));
+
+      document.getElementById(tabName).classList.add("active");
+      event.currentTarget.classList.add("active");
+    }
+  </script>
+
+</body>
+
+</html>
